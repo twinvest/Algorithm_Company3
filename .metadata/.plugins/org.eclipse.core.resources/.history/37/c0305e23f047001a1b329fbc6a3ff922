@@ -1,0 +1,13 @@
+package day0205;
+
+public class 마이쮸 {
+
+	public static void main(String[] args) {
+		Queue<Integer> q = Queue<>();
+		int numOfmychu = 20;
+		while(numOfmychu > 0)
+		{
+			
+		}
+	}
+}

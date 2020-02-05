@@ -1,0 +1,7 @@
+package day0205;
+
+public class 선형큐 {
+	//1차원 배열에 front와 rear가 -1부터 시작해서
+	//인큐가 될때마다 rear가 증가하고 디큐가 될때마다 front가 증가해가며 사용하는 큐를 선형큐라고 불려요
+	
+}

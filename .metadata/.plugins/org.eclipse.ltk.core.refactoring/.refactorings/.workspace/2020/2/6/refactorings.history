@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;HW_JAVA_0129&apos; to &apos;HW_JAVA_0129_김태우&apos;" description="Rename resource &apos;HW_JAVA_0129&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HW_JAVA_0129" name="HW_JAVA_0129_김태우" stamp="1580720054132" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;HW_JAVA_0129_김태우&apos; to &apos;HW_JAVA_0129&apos;" description="Rename resource &apos;HW_JAVA_0129_김태우&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/HW_JAVA_0129_김태우" name="HW_JAVA_0129" stamp="1580720077336" updateReferences="true"/>
+</session>

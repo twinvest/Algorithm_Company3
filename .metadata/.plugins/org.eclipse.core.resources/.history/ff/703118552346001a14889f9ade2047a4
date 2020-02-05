@@ -1,0 +1,11 @@
+package day0203;
+
+public class ProfileMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Profile p = new Profile();
+		
+	}
+
+}

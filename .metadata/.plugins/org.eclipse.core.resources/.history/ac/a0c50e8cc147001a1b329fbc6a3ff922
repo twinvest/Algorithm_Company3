@@ -1,0 +1,14 @@
+package day0205;
+
+import java.util.Scanner;
+
+public class 시각덧셈 {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int testcase = scan.nextInt();
+		for(int t=1; t<=testcase; ++t)
+		{
+			System.out.println("#"+" "+ans1+" "+ans2);
+		}
+	}
+}

@@ -1,0 +1,10 @@
+package day0205;
+
+public class 마이쮸 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numOfmychue = 20;
+		
+	}
+}

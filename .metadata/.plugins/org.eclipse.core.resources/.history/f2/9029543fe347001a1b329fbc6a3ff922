@@ -1,0 +1,11 @@
+package day0205;
+
+public class 요세푸스순열 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int N,K;
+		
+	}
+
+}

@@ -1,0 +1,51 @@
+package day0203;
+
+import java.io.FileInputStream;
+import java.util.Scanner;
+
+public class 오목 {
+	static int[][] map;
+	static int N = 20;
+	static int[] dr = {0,1,1,1}; 
+	static int[] dc = {1,1,0,-1};
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setIn(new FileInputStream("Test54.txt"));
+		Scanner sc = new Scanner(System.in);
+		
+		map = new int[N][N];
+		for(int r=1; r<N; ++r)
+		{			
+			for(int c=1; c<N; ++c)
+			{
+				map[r][c] = sc.nextInt();
+			}
+		}
+		
+		for(int r=1; r<N; ++r)
+		{
+			for(int c=1; c<N; ++c)
+				if(map[r][c]==1 || map[r][c]==2)
+				{
+					for(int k=0; k<4; ++k)
+					{
+						int nr = r+dr[k];
+						int nc = r+dc[k];
+						int cnt = 0;
+						while(check(nr,nc) && map[nr][nc] == map[r][c])
+						{
+							nr = nr +dr[k];
+							nc = nc +dc[k];
+							cnt++;
+						}
+					}
+				}
+		}
+	}
+	
+	static boolean check(int nr, int nc)
+	{
+		return (nr>=0 && nr<N) && (nc>=0 && nc<N);
+	}
+
+}

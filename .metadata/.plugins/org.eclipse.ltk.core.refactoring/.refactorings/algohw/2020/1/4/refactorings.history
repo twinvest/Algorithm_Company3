@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;algohw.최빈수구하기&apos; to &apos;asd&apos;&#x0D;&#x0A;- Original project: &apos;algohw&apos;&#x0D;&#x0A;- Original element: &apos;algohw.최빈수구하기&apos;&#x0D;&#x0A;- Renamed element: &apos;algohw.asd&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;최빈수구하기&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;algohw{최빈수구하기.java[최빈수구하기" matchStrategy="1" name="asd" qualified="false" references="true" similarDeclarations="false" stamp="1579691073655" textual="false" version="1.0"/>
+</session>

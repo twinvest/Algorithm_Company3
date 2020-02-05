@@ -1,0 +1,33 @@
+package day0203;
+/**
+ * 
+ * @author  taewookim
+ * @see ProfileMain
+ * @version 1
+ *
+ */
+
+
+public class Profile {
+	/** 이름*/
+	public String name;
+	/** 나이*/
+	public int age;
+	/** 성별*/
+	public boolean gender;
+	
+	Profile(String _name, int _age, boolean _gender){
+		name = _name;
+		age = _age;
+		gender = _gender;
+	}
+	Profile(){
+		
+	}
+	
+	/** 객체정보*/
+	void print()
+	{
+		System.out.println(age+","+name+","+gender);
+	}
+}

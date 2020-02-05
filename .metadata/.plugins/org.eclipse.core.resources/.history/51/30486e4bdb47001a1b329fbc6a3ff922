@@ -1,0 +1,10 @@
+package day0205;
+
+public class 파스칼의삼각형 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

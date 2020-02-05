@@ -1,0 +1,11 @@
+package day0203;
+
+public class 오목 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.setIn(new FileInputStream("Test54.txt"));
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

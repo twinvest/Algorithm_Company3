@@ -1,0 +1,69 @@
+package day0131;
+
+import java.util.Scanner;
+import java.util.Stack;
+
+public class 괄호짝짓기 {
+	
+	static char[] gwal = {'(', ')', '[',']','{','}','<','>'};
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		
+		for(int t=1; t<=10; ++t)
+		{
+			int len = scan.nextInt();
+			int ans = 0;
+			Stack<Character> s = new Stack<>();
+			//char[] arr = new char[len]; //괄호 입력받을 곳
+			for(int i = 0; i<len; ++i)
+			{
+				boolean result = true;
+				char ch = scan.next().charAt(0);
+				if(ch == gwal[0] || ch ==gwal[2] || ch==gwal[4] || ch==gwal[6])
+				{
+					s.push(ch);
+				}
+				else
+				{
+					for(int i = 0; i<8; ++i)
+					{
+						
+					}
+					
+					
+					
+					if( !s.isEmpty() && s.pop() == '(' ) {
+						result = true;
+					}
+					if( !s.isEmpty() && s.pop() == '[' ) {
+						result = true;
+					}
+					if( !s.isEmpty() && s.pop() == '{' ) {
+						result = true;
+					}
+					if( !s.isEmpty() && s.pop() == '<' ) {
+						result = true;
+					}
+					else {
+						//잘못됐음. 더이상 검사할 필요도 없어.
+						result = false;
+						break;
+					}
+				}
+			}
+			
+			if(result) {
+				if(stack.isEmpty())
+					System.out.println("정상");
+				else
+					System.out.println("잘못됨");
+			}
+			else {
+				System.out.println("잘못됨");
+			}
+			System.out.println("#"+t+" "+ans);
+		}
+	
+	}
+}

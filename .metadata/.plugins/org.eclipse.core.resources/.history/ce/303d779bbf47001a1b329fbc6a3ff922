@@ -1,0 +1,17 @@
+package day0205;
+
+import java.util.Scanner;
+
+public class 제로 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		int testcase = scan.nextInt();
+		for(int t=1; t<=testcase; ++t)
+		{
+			
+		}
+	}
+
+}
