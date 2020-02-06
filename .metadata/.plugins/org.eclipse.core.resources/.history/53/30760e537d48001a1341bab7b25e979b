@@ -1,0 +1,30 @@
+package day0206;
+
+public class SinglyLinkedList {
+	static class Node{
+		int data;
+		Node link;
+	}
+	Node head;
+	int size;
+	void addToFirst(int data) {
+		
+	}
+	void addToLast(int data) {
+		Node n = new Node();
+		n.data=data;
+		n.link = null;
+		
+	}
+	//전체 노드들을 이쁘게 쭑 문자열로 만들어주도록
+	public String toString() {
+		return "";
+	}
+	
+	
+	public static void main(String[] args) {
+		SinglyLinkedList list = new SinglyLinkedList();
+		list.addToLast(10);
+	}
+	
+}

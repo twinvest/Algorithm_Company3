@@ -40,17 +40,18 @@ public class 조교의성적매기기 {
 			}
 			
 			for(int i=0; i<arr.length; ++i)
-				arr3[i] = 1 + (int)arr2[i];	
-			
-			for(int i=0; i<arr.length; ++i)
 			{
-				for(int j=i; j<=N/; )
+				arr3[i] = 1 + (int)arr2[i];
 			}
+					
 			
 			
 			
 			for(int i=0; i<arr.length; ++i)
 				System.out.print(arr3[i]+" ");
+			System.out.println();
+			for(int i=0; i<arr.length; ++i)
+				System.out.print(arr[i]+" ");
 			
 		}
 	}
