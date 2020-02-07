@@ -13,8 +13,8 @@
 <fullyQualifiedTypeName name="java.nio.file.FileStore"/>
 <fullyQualifiedTypeName name="javax.imageio.stream.FileCacheImageInputStream"/>
 <fullyQualifiedTypeName name="javax.tools.FileObject"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="javax.xml.transform.Result"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>
