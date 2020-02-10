@@ -1,8 +1,0 @@
-package day0203;
-
-public class Profile {
-	String name;
-	int age;
-	boolean gender;
-	
-}

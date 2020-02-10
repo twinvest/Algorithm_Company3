@@ -1,9 +1,0 @@
-package day0203;
-
-public class ProfileMain {
-
-	public static void main(String[] args) {
-		Profile p = new Profile();
-		
-	}
-}
