@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;day0205.요세푸스순열_새로운버전&apos; to &apos;요세푸스순열_노큐&apos;&#x0D;&#x0A;- Original project: &apos;Algoritm_Lecture&apos;&#x0D;&#x0A;- Original element: &apos;day0205.요세푸스순열_새로운버전&apos;&#x0D;&#x0A;- Renamed element: &apos;day0205.요세푸스순열_노큐&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;요세푸스순열_새로운버전&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;day0205{요세푸스순열_새로운버전.java[요세푸스순열_새로운버전" matchStrategy="1" name="요세푸스순열_노큐" qualified="false" references="true" similarDeclarations="false" stamp="1580889091996" textual="false" version="1.0"/>
-</session>
