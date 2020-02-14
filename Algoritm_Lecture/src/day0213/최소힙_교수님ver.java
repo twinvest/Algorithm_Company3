@@ -32,36 +32,45 @@ public class 최소힙_교수님ver {
 		int poll() {
 			int val = tree[1];
 			tree[1] = tree[size];
-			size--;
 			int idx = 1;
 			while( true ) {
+				//오른쪽 자식이 유효할때 ( 자식이 둘다 있을 때 )
 				if( size >= idx *2 + 1) {
+					//둘다 나보다 크면 그만해도됨
 					if( tree[idx] < tree[idx*2] && tree[idx] < tree[idx*2+1])
 						break;
+					//오른쪽이 작으면 오른쪽과 변경
 					else if( tree[idx*2] > tree[idx*2+1]) {
 						swap(idx, idx*2+1);
 						idx = idx*2+1;
 					}
+					//왼쪽이 작으면 왼쪽과 변경
 					else
 					{
 						swap(idx, idx*2);
 						idx = idx*2;
 					}
 				}
+				//왼쪽 자식이 유효할때(오른쪽자식은 ㄴㄴ)
 				else if( size >= idx * 2) {
+					//왼쪽이 나보다 작으면 변경
 					if( tree[idx] > tree[idx * 2])
 					{
 						swap(idx, idx*2);
 						idx = idx*2;
 					}
+					//아니면 정상이므로 그만
+					else
+						break;
 				}
+				//자식이 없으므로 그만
 				else {
 					break;
 				}
 			}
+			size--;
 			return val;
 		}
-		
 		int dequeue() {
 			int idx = size;
 			int result = tree[1];
